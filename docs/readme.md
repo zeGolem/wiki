@@ -12,7 +12,7 @@ sudo install -Dt /usr/local/bin -m 755 wiki                                    #
 ```bash
 git clone git@github.com:BetaPictoris/wcli.git      # Clone the repository
 cd wiki                                             # Change into the repository's directory
-bash build.sh                                       # Build Wiki CLI
+./build.sh                                          # Build Wiki CLI
 sudo install -Dt /usr/local/bin -m 755 wiki         # Install Wiki CLI to "/usr/local/bin" with the mode "755"
 ```
 
